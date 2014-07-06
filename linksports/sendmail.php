@@ -43,7 +43,7 @@ $email_content .= "本文:\n\n$message";
 	
 // send the email
 //ENTER YOUR INFORMATION BELOW FOR THE FORM TO WORK!
-mail ('abc@bichir.net', 'コンタクトフォームから送信', $email_content, $headers);
+mail ('', 'コンタクトフォームから送信', $email_content, $headers);
 	
 // send the user back to the form
 header('Location: index.html?s='.urlencode('送信完了しました')); exit;
