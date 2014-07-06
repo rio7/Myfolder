@@ -1,0 +1,35 @@
+.navbar h1.title-logo {
+	margin:0;
+}
+.navbar h1.title-logo a {
+color: #ffffff;
+font-family: sans-serif;;
+font-size: 24px;
+}
+.carousel-inner .topimg {
+	background: #000000;
+}
+.carousel-inner .topimg img{
+margin: 0 auto;
+	display: block;
+	width: 100%;
+	max-width: 1000px;
+	height: auto;
+}
+.carousel {
+	height: auto;
+}
+.carousel-inner {
+	height: auto;
+}
+
+#section-2 {
+	background: #f3f3f3;
+}
+
+
+#section-footer {
+	width: 100%;
+	background: black;
+	color: #ffffff;
+}
