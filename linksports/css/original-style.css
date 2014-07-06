@@ -26,7 +26,21 @@ margin: 0 auto;
 #section-2 {
 	background: #f3f3f3;
 }
+#section-3 iframe {
+	width: 100%;
+}
 
+@media all and (min-width: 768px) {
+#section-3 .col-lg-6.col-md-6.col-sm-6 {
+	float:right !important;
+}
+}
+
+@media all and (min-width: 768px) {
+#section-5 .col-sm-8, #section-5 .col-sm-4 {
+	float:right;
+}
+}
 
 #section-footer {
 	width: 100%;
